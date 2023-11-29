@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>192</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuShader_Styles">
+    <property name="title">
+     <string>Flair</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menustyle">
+    <property name="title">
+     <string>Shader Styles</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuGlobalNode">
+    <property name="title">
+     <string>GlobalNode</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuMaterials">
+    <property name="title">
+     <string>Materials</string>
+    </property>
+   </widget>
+   <addaction name="menuShader_Styles"/>
+   <addaction name="menustyle"/>
+   <addaction name="menuGlobalNode"/>
+   <addaction name="menuMaterials"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

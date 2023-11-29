@@ -1,0 +1,29 @@
+# Unreal Engine specific
+#######################
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.suo
+*.xcodeproj
+*.uproject.user
+*.VC.db
+*.VC.VC.opendb
+.vs/
+*.opendb
+*.db
+
+# Visual Studio Code specific
+##############################
+.vscode/
+
+# Python virtual environments
+#############################
+myenv/
+
+# Other files to ignore
+########################
+.DS_Store
+Thumbs.db
